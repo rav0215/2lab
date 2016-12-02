@@ -1,28 +1,27 @@
-#include <iostream>
-#include <cstdlib>
+
+    #include <iostream> 
+#include "calculator.hpp" 
 using namespace std;
-int main ()
-{
-double x, y; 
-int r;
-cin >> x;
-cin >> y;
-cin >> r;
-setlocale(LC_ALL, "Russian");
-double sum(double x, double y);
-double subtraction(double x, double y);
-double mult(double x, double y);
-double division(double x, double y);
-double power(double x, int y);
-double sqrt(double x);
-if (y==0)
-    cout << " Banned act "<< endl;
-    else 
-        cout << double division(double x, double y)<< endl;
-    if (x<=0)
-       cout << " No roots ";
-    else 
-        cout << double sqrt(double x) << endl;
-    return0;
+
+int main() 
+{ 
+double a, b; 
+
+double summa(double a, double b); 
+double sub(double a, double b); 
+double mult(double a, double b); 
+double dev(double a, double b); 
+double pow(double a, double b); 
+double sqrt(double a); 
+
+printf_s("\n a = "); scanf_s("%lf", &a); 
+printf_s("\n b = "); scanf_s("%lf", &b); 
+printf_s("\n summa =%f", summa(a, b)); 
+printf_s("\n sub =%f", sub(a, b)); 
+printf_s("\n mult =%f", mult(a, b)); 
+printf_s("\n dev =%f", dev(a, b)); 
+printf_s("\n pow =%f", pow(a, b)); 
+printf_s("\n sqrt =%f", sqrt(a)); 
+
+return 0; 
 }
-    
