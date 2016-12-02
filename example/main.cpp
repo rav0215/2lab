@@ -19,12 +19,12 @@ double sqrt(double x);
 if (y==0)
     cout << " Banned act "<< endl;
     else 
-        cout << double division(double x, double y)<< endl;
+        cout << "double division(double x, double y)"<< endl;
     if (x<=0)
        cout << " No roots ";
     else 
-        cout << double sqrt(double x) << endl;
-    return0;
+        cout << "double sqrt(double x)" << endl;
+    return EXIT_SUCCESS;
 }
 
 
