@@ -1,37 +1,28 @@
 #include <iostream>
 #include <cstdlib>
 using namespace std;
-int main (){
-    setlocale(LC_ALL, "Russian");
-    char ss;
-    do
-    {
-        cout << "Enter the number" << endl;
-        float x, y, r;
-        char o;
-        cin >> x;
-        cin >> o;
-        cin >> y;
-        switch (o)
-        {
-            case '+':
-                r = x + y;
-                break;
-            case '-':
-                r = x - y;
-                break;
-            case '*':
-                r = x * y;
-                break;
-            case '/':
-                r = x / y;
-                break;
-        }
-        cout << x << o << y << '=' << r << endl ;
-        cout << " Continue? ( Y/N )" << endl;
-        cin >> ss;
-    }
-    while ( ss == 'y');
-    return EXIT_SUCCESS;
+int main ()
+{
+double x, y; 
+int r;
+cin >> x;
+cin >> y;
+cin >> r;
+setlocale(LC_ALL, "Russian");
+double sum(double x, double y);
+double subtraction(double x, double y);
+double mult(double x, double y);
+double division(double x, double y);
+double power(double x, int y);
+double sqrt(double x);
+if (y==0)
+    cout << " Banned act "<< endl;
+    else 
+        cout << double division(double x, double y)<< endl;
+    if (x<=0)
+       cout << " No roots ";
+    else 
+        cout << double sqrt(double x) << endl;
+    return0;
 }
- 
+    
