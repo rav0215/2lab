@@ -3,18 +3,17 @@
 #include <cstdlib>
 using namespace std;
 setlocale(LC_ALL, "Russian");
-
-
-double sum (double x, double y);
-double subtraction (double x, double y);
-double mult (double x, double y);
-double division (double x, double y);
-double power (double x);
-double sqrt (double x);
- 
-
 int main ()
 {
+
+double sum(double x, double y);
+double subtraction(double x, double y);
+double mult(double x, double y);
+double division(double x, double y);
+double power(double x);
+double sqrt(double x);
+ 
+
     double x, y;
     cout << " Enter x ";
     cin >> x;
