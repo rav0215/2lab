@@ -2,9 +2,8 @@
 #include <iostream>
 #include <cstdlib>
 using namespace std;
-setlocale(LC_ALL, "Russian");
-int main ()
-{
+
+
 
 double sum(double x, double y);
 double subtraction(double x, double y);
@@ -12,7 +11,9 @@ double mult(double x, double y);
 double division(double x, double y);
 double power(double x);
 double sqrt(double x);
- 
+
+int main ()
+{
 
     double x, y;
     cout << " Enter x ";
@@ -30,7 +31,7 @@ double sqrt(double x);
     if ( x < 0 )
         cout << " sqrt (x) = no roots " << endl;
     else 
-        cout << " sqrt (x) = " << sqrt ( x , y ) << endl;
+        cout << " sqrt (x) = " << sqrt (x) << endl;
     
     return EXIT_SUCCESS;
     
