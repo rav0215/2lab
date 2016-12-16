@@ -9,7 +9,7 @@ double sum(double x, double y);
 double subtraction(double x, double y);
 double mult(double x, double y);
 double division(double x, double y);
-double power(double x);
+double power(double x, double y);
 double sqrt(double x);
 
 int main ()
